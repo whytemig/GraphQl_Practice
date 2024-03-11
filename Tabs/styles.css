@@ -1,0 +1,30 @@
+main {
+  width: 400px;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+.active {
+  border-bottom: 2px solid rgb(136, 197, 136);
+  padding-bottom: 8px;
+}
+
+.hidden {
+  display: none;
+}

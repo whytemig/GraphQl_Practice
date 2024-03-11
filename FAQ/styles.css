@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+details {
+  cursor: pointer;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background-color: rgb(89, 130, 130);
+  font-weight: 500;
+  border: 1px solid #fff;
+  box-shadow: 00 16px 8px rgba(0, 0, 0, 0.2);
+}
+details p {
+  font-size: 0.75;
+}
+
+summary {
+  font-weight: 700;
+}

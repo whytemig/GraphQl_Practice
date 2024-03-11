@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid rgb(202, 194, 194);
+  padding: 50px 150px;
+  border-radius: 12px;
+}
+
+#counter {
+  font-size: 32px;
+}
+
+.counterControl {
+  display: flex;
+  gap: 20px;
+}
+
+#add,
+#substract {
+  padding: 10px 20px;
+  border: transparent;
+  font-size: 32px;
+  border-radius: 10px;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+#add {
+  background-color: rgb(89, 163, 89);
+}
+
+#substract {
+  background-color: rgb(215, 95, 95);
+}

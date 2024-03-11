@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  width: 500px;
+  margin: 0 auto;
+}
+
+nav {
+  position: relative;
+}
+
+nav ul {
+  width: 6rem;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 0.5rem;
+}
+
+nav ul li a {
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+nav a.active {
+  background-color: rgb(81, 167, 167);
+  color: #fff;
+}
