@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+
+#shopping-list {
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  background-color: rgb(187, 189, 189);
+}
+
+#list-items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#list-items li {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+#list-items li button {
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(146, 70, 70);
+  color: rgb(229, 236, 236);
+  padding: 8px 14px;
+}
+
+.addListDiv {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.addListDiv input,
+#submit {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: none;
+}
+
+#submit {
+  background-color: rgb(80, 197, 158);
+  border-radius: 6px;
+  color: rgb(229, 236, 236);
+}
