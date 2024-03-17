@@ -5,15 +5,13 @@ const { mongoDB } = require("./db/connection");
 const dotenv = require("dotenv");
 
 //middleware
+app.use(express.static("./public"));
 dotenv.config();
 app.use(express.json());
 
 const port = 3500;
 
 mongoDB();
-app.get("/", (req, res) => {
-  res.send("Task manager");
-});
 
 app.use("/api/v1/tasks", taskRoutes);
 
