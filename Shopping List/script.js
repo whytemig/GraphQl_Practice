@@ -24,9 +24,7 @@ class ShoppingList {
       this.storeItems();
     });
   }
-
-  //function to render the items
-
+  //function render the individual list item from local storage or an empty array from the constructor and displays it in the ul element.
   renderFunc() {
     this.unOrderListElement.innerHTML = "";
     if (this.items.length === 0) {
@@ -39,12 +37,13 @@ class ShoppingList {
       const itemListEle = document.createElement("li");
       itemListEle.textContent = item;
 
-      //remove button
+      //remove button rndered with each list item
       const removeButton = document.createElement("button");
       removeButton.textContent = "Remove";
       removeButton.classList.add("remove-item");
       removeButton.onclick = () => {
         this.removeItem(index);
+        //i keep forgetting to rerender the function and update the list as with the local storage data.
         this.renderFunc();
         this.storeItems();
       };
