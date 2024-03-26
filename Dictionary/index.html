@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Dictionary Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Dictionary</h1>
+      <input
+        type="text"
+        class="input"
+        id="input"
+        placeholder="Enter a Word..."
+      />
+      <p class="info-text" id="info-text">Press "Enter" to Search for a Word</p>
+      <div id="def-container" class="def-container">
+        <p>
+          <strong>Word:</strong>
+          <span class="title" id="title">___</span>
+        </p>
+        <p>
+          <strong>Def:</strong><br />
+          <span class="definition" id="definition">___</span>
+        </p>
+        <audio src="" controls id="audio"></audio>
+      </div>
+    </div>
+  </body>
+</html>

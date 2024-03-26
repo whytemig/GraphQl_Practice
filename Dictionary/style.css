@@ -1,0 +1,46 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #3eecac;
+  background-image: linear-gradient(
+    19deg,
+    #3eecac 0%,
+    #ee74e1 50%,
+    #ffffff 100%
+  );
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 28px;
+  margin: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.heading {
+  font-size: 28px;
+}
+.input {
+  height: 53px;
+  width: 300px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 0 32px;
+  text-align: left;
+}
+
+.def-container {
+  display: none;
+}
