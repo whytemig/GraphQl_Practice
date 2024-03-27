@@ -6,6 +6,13 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1 {
+  font-weight: 700;
+  color: #0a1712;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: aliceblue;
 }
 
 .container {
@@ -38,6 +45,7 @@ body {
   height: 250px;
   border-radius: 25%;
   border: 5px solid #337357;
+  background-color: aliceblue;
 }
 
 .anime-name {
