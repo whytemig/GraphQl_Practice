@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>Note Pad Practice</title>
+  </head>
+  <body>
+    <h1>CRUD PRACTICE</h1>
+    <div class="container">
+      <div class="left">
+        <form id="form">
+          <label for="input">Post:</label>
+          <br /><br />
+          <div id="message"></div>
+          <textarea name="" id="input" cols="30" rows="10"></textarea>
+          <br /><br />
+          <button type="submit">Post</button>
+        </form>
+      </div>
+      <div class="right">
+        <h3>Post Feed</h3>
+        <div id="feeds">
+          <div>
+            <p>Post 1</p>
+            <span class="options">
+              <i class="trash">🗑️</i>
+              <i class="pen">✏️</i>
+            </span>
+          </div>
+          <div>
+            <p>Post 2</p>
+            <span class="options">
+              <i class="trash">🗑️</i> <i class="pen">✏️</i></span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
